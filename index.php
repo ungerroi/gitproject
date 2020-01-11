@@ -1,8 +1,6 @@
 <?php
 $firstVar = 1;
-function echoName ($name) {
-    echo $name;
-}
+include 'functions.php';
 
 $name = echoName('Roi');
 
