@@ -1,6 +1,9 @@
 <?php
-echo 'Hello';
 $firstVar = 1;
-function sayHi () {
-    echo 'Hi!';
+function echoName ($name) {
+    echo $name;
 }
+
+$name = echoName('Roi');
+
+echo 'Hello' . $name;
