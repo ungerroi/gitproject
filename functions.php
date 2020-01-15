@@ -6,3 +6,4 @@ function echoName ($name) {
 function increece (x) {
     return x++;
 }
+
